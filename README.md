@@ -89,7 +89,7 @@ Add safety, evaluation, and observability for production deployment.
 | [Lab 8: Evaluations](notebooks/lab8_safety_evaluations.ipynb) | Quality metrics, custom evaluators, and red teaming |
 | [Lab 9: Observability](notebooks/lab9_tracing_observability.ipynb) | OpenTelemetry tracing and Azure Monitor integration |
 
-**Learning Path:**
+**Path:**
 ```
 ┌─────────────────────────────────────┐     ┌─────────────────────────────────┐
 │  Part 1: HTTP Tools (Week 3)        │     │  Part 2: MCP (Week 3)           │
@@ -119,52 +119,3 @@ Add safety, evaluation, and observability for production deployment.
                     │  Lab 9 (Tracing & Observability)    │
                     └─────────────────────────────────────┘
 ```
-
-> **Tip**: Part 1 teaches HTTP tools. Part 2 teaches MCP. Part 3 teaches multi-agent. Part 4 teaches production readiness.
-
-## Getting Started
-
-```bash
-# Clone and install
-git clone <repo-url>
-cd northwestern-fy26-msai-foundry-agentic-ai
-
-# Install uv (if not already installed)
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# Setup environment and install dependencies
-uv sync --all-extras --dev
-```
-
-See the full [Quick Start Guide](docs/quickstart.md) for detailed setup instructions.
-
-Then open the notebooks and follow along!
-
-## Resources
-
-### Azure Portal & UI
-
-- [Azure Portal](https://portal.azure.com) - Main Azure portal
-- [Azure AI Foundry](https://ai.azure.com) - AI Foundry interface
-- [Azure Functions](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp) - Function Apps management
-- [Logic Apps](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows) - Logic Apps designer
-- [Application Insights](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.insights%2Fcomponents) - Monitoring and diagnostics
-
-### Documentation
-
-- [Azure AI Foundry Documentation](https://learn.microsoft.com/en-us/azure/ai-studio/)
-- [Azure Functions Documentation](https://learn.microsoft.com/en-us/azure/azure-functions/)
-- [Azure Logic Apps Documentation](https://learn.microsoft.com/en-us/azure/logic-apps/)
-- [Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
-- [Azure Identity (Managed Identity)](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/)
-
-### Python Resources
-
-- [Pydantic Documentation](https://docs.pydantic.dev/)
-- [Python Type Hints (PEP 484)](https://peps.python.org/pep-0484/)
-- [Python Async/Await](https://docs.python.org/3/library/asyncio.html)
-- [Pytest Documentation](https://docs.pytest.org/)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

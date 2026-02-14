@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a **teaching repository** for Northwestern University's MS AI Foundry program. Students learn to build agentic AI systems using Azure services.
+This repository contains code for building agentic AI systems using Azure services.
 
 ## Coding Standards
 
@@ -46,7 +46,7 @@ tests/
 
 ## Teaching Context
 
-- **Audience**: Graduate students in MS AI program (smart industry professionals)
+- **Audience**: Developers and AI practitioners
 - **Tone**: Clear, professional, educational
 - **Explanations**: Include architecture diagrams, tables, and step-by-step reasoning
 - **Examples**: Provide concrete, runnable code examples

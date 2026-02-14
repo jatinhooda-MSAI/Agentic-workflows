@@ -50,7 +50,7 @@ def setup_tracing(
     *,
     project_endpoint: Optional[str] = None,
     connection_string: Optional[str] = None,
-    service_name: str = "northwestern-agentic-ai",
+    service_name: str = "azure-agentic-ai",
     enable_content_capture: bool = False,
     instrument_openai: bool = True,
     instrument_agents: bool = True,
@@ -66,7 +66,7 @@ def setup_tracing(
             Application Insights connection string will be retrieved automatically.
         connection_string: Explicit Application Insights connection string.
             Use this if you want to specify the connection string directly.
-        service_name: Name to identify this service in traces (default: "northwestern-agentic-ai").
+        service_name: Name to identify this service in traces (default: "azure-agentic-ai").
         enable_content_capture: Whether to capture message content (prompts/responses).
             ⚠️ Only enable in development - may expose PII in production.
         instrument_openai: Whether to instrument the OpenAI SDK (default: True).
@@ -169,7 +169,7 @@ def setup_tracing(
 def setup_aitk_tracing(
     *,
     endpoint: str = "http://localhost:4318",
-    service_name: str = "northwestern-agentic-ai",
+    service_name: str = "azure-agentic-ai",
     enable_content_capture: bool = True,
     instrument_openai: bool = True,
     instrument_agents: bool = True,

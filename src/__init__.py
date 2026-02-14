@@ -6,7 +6,7 @@ including Azure Functions and Logic Apps integrations.
 """
 
 __version__ = "0.1.0"
-__author__ = "Northwestern MSAI"
+__author__ = "Jatin Hooda"
 
 # Tracing utilities
 from src.tracing import (

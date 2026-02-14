@@ -7,12 +7,12 @@ description: Helps create and structure Jupyter notebooks for teaching labs. Use
 
 ## Overview
 
-This skill helps create **well-structured Jupyter notebooks** for teaching Northwestern MS AI students about Azure services and agentic AI.
+This skill helps create **well-structured Jupyter notebooks** for demonstrating Azure services and agentic AI concepts.
 
 ## Target Audience
 
-- **Who**: Graduate students in MS AI program
-- **Background**: Smart industry professionals, strong coding skills
+- **Who**: Developers and AI practitioners
+- **Background**: Industry professionals with strong coding skills
 - **Tone**: Professional, educational, explains *why* not just *how*
 - **Level**: Intermediate to advanced Python, new to Azure/AI Foundry
 
